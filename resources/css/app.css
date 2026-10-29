@@ -1,0 +1,79 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+    --bpbd-primary: #0a4275;
+    --bpbd-secondary: #0077b6;
+    --bpbd-accent: #00b4d8;
+    --bpbd-danger: #d90429;
+    --bpbd-warning: #f77f00;
+    --bpbd-light: #f8f9fa;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f4f7fb;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #2b2d42;
+}
+
+.navbar-bpbd {
+    background: linear-gradient(135deg, #072a48 0%, #0c4a7e 100%);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+    padding: 0.85rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: -0.3px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    padding: 0.5rem 0.9rem !important;
+    border-radius: 6px;
+}
+
+.nav-link:hover, .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #fff !important;
+}
+
+.main-content {
+    flex: 1 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.card-custom .card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #edf2f7;
+    padding: 1.1rem 1.4rem;
+    font-weight: 700;
+}
+
+.footer-bpbd {
+    flex-shrink: 0;
+    background: #072a48;
+    color: #d1d5db;
+    font-size: 0.88rem;
+    border-top: 3px solid #00b4d8;
+}
+
+.badge-status {
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.4em 0.85em;
+    border-radius: 30px;
+}
